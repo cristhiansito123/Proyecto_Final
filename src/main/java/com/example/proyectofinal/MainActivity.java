@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 Toast.makeText(this,"El usuario "+nmbusu+" no existe, digita uno nuevo",Toast.LENGTH_LONG).show();
             }
-            //Coincidencia con la contraseña
+            //Coincidencia con la contraseñan
             if(user != null && this.usuario.getContrasena().equals(pass)){
                 Toast.makeText(this,"Bienvenido usuario",Toast.LENGTH_LONG).show();
                 Intent home=new Intent(MainActivity.this,Home_Activity.class);
